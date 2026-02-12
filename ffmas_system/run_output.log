@@ -1,0 +1,45 @@
+[INFO] Output directory: C:\Users\Lucian\Desktop\toate tehnologiile mele\enhanced fractal audio\validated\ffmas_system
+[INFO] Starting FFMAS Unified Demo...
+======================================================================
+FFMAS UNIFIED DEMO - HEADLESS EXECUTION
+======================================================================
+
+=== START EXPERIMENT 1: FFMAS ===
+
+=== EXPERIMENT 1: FFMAS FLOW ===
+
+[FFMAS METRICS REPORT]
+EncodedFrameID: 1
+EncodedSignature: FRAC-1-6395
+RetrievedChunks: 1
+BroadcastedProfiles: ['listener1.ifa', 'listener2.ifa']
+SynchronizedDevices: ['speaker_1', 'headphone_1']
+SyncReport: ['Adaptive link established with speaker_1', 'Adaptive link established with headphone_1']
+ReconstructedFramesCount: 2
+Timings (seconds): {'Encode': 0.0, 'Retrieve': 0.0, 'Broadcast': 0.0, 'Sync': 0.0, 'Reconstruct+Filter': 0.0}
+
+[FFMAS FINAL AUDIO DATA PREVIEW]
+Frame #1: NoiseReduced(Optimized(FrequentialTransformed(Simulated audio data from audio_input.wav)))
+Frame #2: NoiseReduced(Optimized(FrequentialTransformed(Simulated audio data from audio_input.wav)))
+
+=== EXPERIMENT 2: ENHANCED FRACTAL AUDIO COMPRESSION ===
+
+=== EXPERIMENT 2: ENHANCED FRACTAL AUDIO COMPRESSION ===
+Original Audio (Synthetic, 2s @ 8000Hz) generated.
+
+===== EXPERIMENT RESULTS (Enhanced Fractal Audio) =====
+MSE: 4091055.75
+RMSE: 2022.636
+SNR_dB: 18.67
+Correlation: 0.9938
+LSD_dB: 7.898
+Execution_Time_s: 0.2258
+Original audio saved to: C:\Users\Lucian\Desktop\toate tehnologiile mele\enhanced fractal audio\validated\ffmas_system\original_audio.wav
+Reconstructed audio saved to: C:\Users\Lucian\Desktop\toate tehnologiile mele\enhanced fractal audio\validated\ffmas_system\enhanced_fractal_reconstructed.wav
+Waveform comparison saved to: C:\Users\Lucian\Desktop\toate tehnologiile mele\enhanced fractal audio\validated\ffmas_system\waveform_comparison.png
+
+All metrics saved to: C:\Users\Lucian\Desktop\toate tehnologiile mele\enhanced fractal audio\validated\ffmas_system\experiment_metrics.json
+
+======================================================================
+=== ALL EXPERIMENTS COMPLETED SUCCESSFULLY ===
+======================================================================

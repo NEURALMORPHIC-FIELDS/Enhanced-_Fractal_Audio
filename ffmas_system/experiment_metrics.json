@@ -1,0 +1,35 @@
+{
+  "ffmas_metrics": {
+    "EncodedFrameID": 1,
+    "EncodedSignature": "FRAC-1-6395",
+    "RetrievedChunks": 1,
+    "BroadcastedProfiles": [
+      "listener1.ifa",
+      "listener2.ifa"
+    ],
+    "SynchronizedDevices": [
+      "speaker_1",
+      "headphone_1"
+    ],
+    "SyncReport": [
+      "Adaptive link established with speaker_1",
+      "Adaptive link established with headphone_1"
+    ],
+    "ReconstructedFramesCount": 2,
+    "Timings (seconds)": {
+      "Encode": 0.0,
+      "Retrieve": 0.0,
+      "Broadcast": 0.0,
+      "Sync": 0.0,
+      "Reconstruct+Filter": 0.0
+    }
+  },
+  "fractal_compression_metrics": {
+    "MSE": "4.205268e+06",
+    "RMSE": 2050.675,
+    "SNR_dB": 18.633,
+    "Correlation": 0.9937,
+    "LSD_dB": 8.081,
+    "Execution_Time_s": 0.2231
+  }
+}
